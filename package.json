@@ -1,0 +1,25 @@
+{
+  "name": "Package_Manager",
+  "version": "1.0.0",
+  "description": "Manages NPM package operations.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node appTester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NYX1122/Package_Manager"
+  },
+  "author": "BoDee Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYX1122/Package_Manager/issues"
+  },
+  "homepage": "https://github.com/NYX1122/Package_Manager#readme",
+  "dependencies": {
+    "package_creator": "file:../Package_Creator",
+    "Package_Deletor": "file:../Package_Deletor",
+    "terminal_asker": "file:../Terminal_Asker"
+  }
+}
